@@ -12,7 +12,7 @@ font2 = font.SysFont(None, 36)
  
 #фоновая музыка
 mixer.init()
-mixer.music.load('C:\Users\Ilya\Desktop\AEAEEEAEAEAEAAAE\space.ogg')
+mixer.music.load('/home/ryan/Projects/Space-Shooter/space.mp3')
 mixer.music.play()
 fire_sound = mixer.Sound('fire.ogg')
  
